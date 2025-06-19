@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sean Dawa Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+      .w3-row-padding img {margin-bottom: 12px}
+      .w3-sidebar {width: 120px;background: #222;}
+      #main {margin-left: 120px}
+      @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+      .profile-pic {
+        filter: grayscale(60%) brightness(0.8) contrast(1.2);
+        background: #111;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      body.w3-black {
+        background:
+          linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+          url('./images/clock.jpg') no-repeat center top fixed;
+        background-size: cover;
+        color: #f5f5f5;
+      }
+      .w3-text-grey, .w3-text-light-grey, .w3-content, .w3-padding-64, .w3-justify, .w3-center, .w3-xlarge, .w3-large, .w3-small, .w3-bar-item, .w3-bar-block, .w3-button, .w3-ul, .w3-white, .w3-dark-grey, .w3-section, .w3-row, .w3-quarter, .w3-padding-large, .w3-opacity, .w3-hover-black, .w3-hover-opacity-off {
+        color: #f5f5f5 !important;
+      }
+      .w3-white {
+        background: rgba(0,0,0,0.7) !important;
+        color: #fff !important;
+        box-shadow: 0 2px 16px 0 rgba(0,0,0,0.15);
+        border: 1px solid #fff !important;
+      }
+      .w3-dark-grey {
+        background: #00bcd4 !important;
+      }
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <img src="./images/clock.jpg" style="width:80px; height:80px; object-fit:cover; border-radius:50%; margin: 20px auto 10px auto; display:block; box-shadow: 0 0 10px #111; background: #222;">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:33.3% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:33.3% !important">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:33.3% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home" style="background: transparent;">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Sean Dawa.</h1>
+    <p style="font-size:1.5em;">JUNIOR DEVELOPER</p>
+    <img src="./images/clock.jpg" alt="Sean Dawa" style="display: block; margin: 30px auto 20px auto; width: 220px; height: 220px; max-width: 90vw; background: none; border-radius: 50%; object-fit: cover; filter: none; box-shadow: 0 0 30px 5px #000;">
+    <p style="font-size:1.1em; color:#aaa; max-width:600px; margin:auto;">I'm a junior developer ready to take it to the moon—tackling all challenges, finding all solutions, and always pushing the limits. Driven by curiosity and passion, I turn ideas into reality and never back down from a challenge. Let's build the future together!</p>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">HTML</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">CSS</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">JavaScript</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">TypeScript</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div><br>
+    <div class="w3-row w3-center w3-padding-16 w3-section" style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center;">
+      <div class="w3-white" style="flex: 1 1 220px; min-width: 220px; max-width: 260px; margin: 8px; padding: 24px 16px; border-radius: 16px; display: flex; flex-direction: column; align-items: center;">
+        <span class="w3-xlarge">11+</span><br>
+        <span style="font-size:1.2em;">Partners</span>
+        <p style="margin:8px 0 0 0; font-size:0.95em;">Collaborated with 11+ amazing partners on various projects.</p>
+      </div>
+      <div class="w3-white" style="flex: 1 1 220px; min-width: 220px; max-width: 260px; margin: 8px; padding: 24px 16px; border-radius: 16px; display: flex; flex-direction: column; align-items: center;">
+        <span class="w3-xlarge">55+</span><br>
+        <span style="font-size:1.2em;">Projects Done</span>
+        <p style="margin:8px 0 0 0; font-size:0.95em;">Successfully completed over 55 projects.</p>
+      </div>
+      <div class="w3-white" style="flex: 1 1 220px; min-width: 220px; max-width: 260px; margin: 8px; padding: 24px 16px; border-radius: 16px; display: flex; flex-direction: column; align-items: center;">
+        <span class="w3-xlarge">89+</span><br>
+        <span style="font-size:1.2em;">Happy Clients</span>
+        <p style="margin:8px 0 0 0; font-size:0.95em;">Proud to have 89+ satisfied clients.</p>
+      </div>
+      <div class="w3-white" style="flex: 1 1 220px; min-width: 220px; max-width: 260px; margin: 8px; padding: 24px 16px; border-radius: 16px; display: flex; flex-direction: column; align-items: center;">
+        <span class="w3-xlarge">150+</span><br>
+        <span style="font-size:1.2em;">Meetings</span>
+        <p style="margin:8px 0 0 0; font-size:0.95em;">Attended 150+ productive meetings.</p>
+      </div>
+    </div>
+    <div class="w3-section w3-center" style="margin-top: 32px;">
+      <h3>More About Me</h3>
+      <p>I am passionate about technology, teamwork, and continuous learning. I enjoy collaborating on creative projects and am always eager to tackle new challenges. Let's connect and make something amazing together!</p>
+    </div>
+    <button class="w3-button w3-white w3-padding-large w3-section" style="font-size:1.1em; font-weight:bold; color:#fff; background:rgba(0,0,0,0.7); border:1px solid #fff;">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 10739B TIMIRE PARK HARARE</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 0719323375</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: seandawa6@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+    <form action="#" method="post">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit" style="opacity: 1 !important; color: #222 !important; font-weight: bold;">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <div class="w3-section w3-center" style="margin-top: 32px;">
+      <h3>Let's Collaborate!</h3>
+      <p>I'm always open to new opportunities, collaborations, and creative ideas. Feel free to reach out for projects, partnerships, or just to say hello!</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge w3-center" style="display: block !important; opacity: 1 !important; visibility: visible !important;">
+    <a href="https://www.instagram.com/clock_zw" target="_blank" style="color:inherit;"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <div style="margin-top: 40px; font-size: 1.3em; color: #f5f5f5;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C Logo" style="height: 32px; vertical-align: middle; margin-right: 8px; background: #fff; border-radius: 6px; padding: 2px;">
+      Designed with <span style="color: #e25555;">&#10084;&#65039;</span> by Sean Dawa.
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html> 
